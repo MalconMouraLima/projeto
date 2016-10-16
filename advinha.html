@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="UTF-8">
+	<title>Advinha</title>
+</head>
+
+<body>
+
+
+	<input type="text" id="numero" />
+	<input type="submit" id="advinhar" value="Compare com o meu segredo" />
+
+	<script>
+		var segredos = [16, 17, 22, 32, 34, 67, 79];
+
+		var CaixaDoNumero = document.getElementById("numero");
+		
+		var botaoClicado = function() {
+			
+			var achou = false;
+			for(var i = 0; i < segredos.length; i++){
+
+				if(segredos[i] == CaixaDoNumero.value){					
+					achou = true;
+					break;
+				}
+			}		
+		
+			if(achou == true){
+				alert("Parabéns vc acertou");				
+			} else {				
+				alert("Tente novamente");
+			}
+
+		}
+		
+		var botaoAdvinhar = document.getElementById("advinhar");
+		botaoAdvinhar.onclick = botaoClicado;
+
+	</script>
+
+</body>
+</html>

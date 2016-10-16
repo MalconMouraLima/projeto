@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="UTF-8">
+	<title>IMC</title>
+</head>
+
+<body>
+
+	<script>
+		
+	var pulalinha = function() {
+		document.write("<br>");
+	}
+
+
+	var mostra = function(frase) {
+		document.write(frase);
+		pulalinha();
+		pulalinha();
+	}
+
+	var calculaIMC = function(altura, peso) {
+		var imc = peso / (altura * altura);
+		return imc;
+	}
+
+	var meuIMC = calculaIMC(1.72, 75);
+	var imcDoPrimo = calculaIMC(1.70, 95);
+	
+	mostra("Meu IMC é: " + meuIMC);
+	mostra("O IMC do meu primo é: " + imcDoPrimo);
+
+
+	var nome = prompt("Qual o seu nome?");
+	document.write("Bem vindo: " + nome);
+	pulalinha();
+	var anos = prompt("Quantos anos vc tem?");
+	document.write("Você tem " + anos + " anos");
+
+	console.log(nome);	
+	</script>
+
+</body>
+</html>

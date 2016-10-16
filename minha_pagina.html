@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>EcmaScript</title>	
+</head>
+<body>
+
+	<script> 
+
+		var pulaLinha = function(){
+			document.write("<br>");
+		}
+
+		var mostra = function(frase){
+			document.write(frase);
+			pulaLinha()
+			pulaLinha()
+		}
+
+		var ano = 2016;
+
+
+		mostra("Eu nasci: " + (ano - (ano-1988)));		
+		mostra("Eu tenho: " + (ano-1988));		
+		mostra("Ano atual: " + ano);	
+
+		mostra("Usando funções para melhorar o código.");
+
+		console.log("Essa mgs aparece apenas no log");
+
+	</script>
+	
+
+</body>
+</html>

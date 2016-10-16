@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="UTF-8">
+	<title>Futebol</title>
+</head>
+
+<body>
+
+	<script>
+		
+	var pulalinha = function() {
+		document.write("<br>");
+	}
+
+
+	var mostra = function(frase) {
+		document.write(frase);
+		pulalinha();
+		pulalinha();
+	}
+
+
+	var vitorias = parseInt(prompt("Quantos jogos o Flamengo venceu?"));
+	var empates = parseInt(prompt("Quantos jogos o Flamengo empatou?"));
+	
+	var pontos = (vitorias * 3) + empates;
+
+	mostra("Nosso time tem " + pontos + " pontos!");
+
+	if(pontos > 28) {
+		mostra("Uma vez Flamengo, sempre Flamengo!");
+		mostra("Nosso time está indo melhor que o Vasco!");
+	} else{
+		mostra(":(")
+	}
+
+	</script>
+
+</body>
+</html>

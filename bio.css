@@ -1,0 +1,155 @@
+html {
+	font-size: 20px;
+}
+
+body {
+	background-color: #F2FFFC;
+	font-family: "Crimson Text", serif;
+	line-height: 1.5;
+}
+main h1 {
+	font-size: 60px;
+	background-color: rgb(120, 30, 60);
+	color: #FAFFFA;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	padding: 20px;
+	margin: 0px;	
+}
+.titulo-principal {
+	font-size: 3em;
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 1.25rem;
+	border-bottom:  .5rem solid #000;
+}
+.subtitulo-texto {
+	font-size: 30px;
+	clear: both;
+	padding-top: 10px;
+}
+h1 {
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 40px;
+	font-family: "Open Sans", sans-serif;
+	clear: both;
+}
+p {
+	text-align: justify;
+	margin: 20px 0	;
+}
+blockquote {
+	background-color: #DADDDA;
+	padding: 16px;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	margin: 0px;
+	box-sizing: border-box;	
+}
+strong {
+	font-weight: 600;
+}
+em {
+	font-style: italic;
+}
+aside {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	text-align: center;
+	padding: 20px;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+nav h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+nav a {
+	color: inherit;
+}
+.container {
+	margin: 0 auto;
+	width: 840px;
+	padding: 40px;
+	padding-bottom: 80px; 
+}
+.icones-sociais li {
+	display: inline-block;	
+	margin-top: 10px;
+}
+.social-rodape {
+	margin: 5px;
+}
+footer {
+	background-color: #000;
+	color: #F2FFFC;
+	padding: 5px;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.icones-sociais a {
+	display: inline-block;	
+	width: 48px;
+	height: 48px;
+	text-indent: -99999px;
+}
+.github {
+	background-image: url(github.png);
+	w
+}
+.twitter {
+	background-image: url(twitter.png);
+}
+.linkedin {
+	background-image: url(linkedin.png);
+}
+.fiat {
+	float: right;
+	margin-left: 40px;
+}
+.petrobras {
+	float: left;
+	margin-right: 40px;
+}
+aside, img {
+	float: right;	
+	width: 15%
+}
+aside {
+	clear: right;
+	width: 15%
+	position: relative;
+	top: 120px;
+}
+main {
+	float: left;
+	width: 85%;
+}
+cite {
+	font-style: italic;
+	float: right;
+}
+aside, 
+.minha-foto {
+	float: right;
+	box-sizing: border-box;
+	border-left: 10px solid black;	
+	border-bottom: 10px solid black;	
+}
+.minha-foto {
+	position: relative;
+	top: 0;
+	right: 0;
+}
+.citacao-bio {
+	background-color: #D9ESE3;
+	border: 
+	padding: 1em;
+	margin: 1rem 2rem;
+	width: 30ch;
+	box-sizing: border-box;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="UTF-8">
+	<title>Advinha</title>
+</head>
+
+<body>
+
+
+	<input type="text" id="numero" />
+	<input type="submit" value="Adicioneo verifique no bingo" id="verificar"/>
+
+	<script>
+		var sorteados = [];
+
+		var adicionarSorteado = function() {
+			var numero = document.getElementById("numero").value
+
+			for(var i = 0; i < sorteados.length; i++){
+				if(sorteados[i] == numero){
+					alert("Número já sorteado!");
+					return;
+				}
+			}
+
+			sorteados.push(numero);	
+			console.log(sorteados)
+		}
+
+		/* vincula function ao evento click*/
+		var botao = document.getElementById("verificar");
+		botao.onclick = adicionarSorteado;
+
+	</script>
+
+</body>
+</html>
